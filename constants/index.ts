@@ -6,7 +6,7 @@ export const portfolio = [
   },
   {
     name: "MIXØ",
-    link: "http://xn--mix-2na.xyz/",
+    link: "https://xn--mix-2na.xyz",
     shortExplainer: "Community owned music streaming platform",
   },
   {
