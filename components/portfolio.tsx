@@ -6,14 +6,13 @@ export const Portfolio = () => {
     window.open(link, "_blank");
   };
   return (
-    <Box>
-      <Box>
+    <Box padding={"1em"}>
+      <Box cursor="pointer">
         <Heading>PORTFOLIO</Heading>
       </Box>
       {portfolioList.map((project: any) => {
         return (
           <Box
-            margin="1em"
             key={`${project.name}`}
             display="flex"
             gap=".5em"

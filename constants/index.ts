@@ -21,4 +21,8 @@ export const links = [
     name: "GITHUB",
     link: "https://github.com/mindsgn",
   },
+  {
+    name: "LINKEDIN",
+    link: "https://www.linkedin.com/in/sibongiseni-t-40602b14a/",
+  },
 ];

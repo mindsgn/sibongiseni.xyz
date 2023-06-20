@@ -1,22 +1,16 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Container, Heading } from "@chakra-ui/react";
 import { Logo } from "../components/logo";
 import { Portfolio } from "../components/portfolio";
 import { Links } from "../components/link";
+import { Explainer } from "../components/explainer";
 
 export default function Home() {
   return (
-    <Box
-      display="flex"
-      flexDirection="column"
-      alignItems="center"
-      justifyContent="flex-start"
-      width="100vw"
-      height="100vh"
-      padding={10}
-    >
+    <Container padding={"1em"}>
       <Logo />
       <Links />
+      <Explainer />
       <Portfolio />
-    </Box>
+    </Container>
   );
 }

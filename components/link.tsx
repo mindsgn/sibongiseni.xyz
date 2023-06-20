@@ -5,7 +5,7 @@ export const Links = () => {
     window.open(link, "_blank");
   };
   return (
-    <Box display={"flex"} gap={"0.5em"} margin="1.5em">
+    <Box display={"flex"} gap={"0.5em"} padding={"1em"}>
       {links.map((project: any) => {
         return (
           <Box
