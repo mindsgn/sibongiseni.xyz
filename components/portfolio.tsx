@@ -1,6 +1,6 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { portfolio as portfolioList } from "./../constants/index";
-import Link from "next/link";
+
 export const Portfolio = () => {
   const handleOpenNewWindow = (link: string) => {
     window.open(link, "_blank");

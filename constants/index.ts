@@ -25,4 +25,12 @@ export const links = [
     name: "LINKEDIN",
     link: "https://www.linkedin.com/in/sibongiseni-t-40602b14a/",
   },
+  {
+    name: "TWITTER",
+    link: "https://twitter.com/mindsgn",
+  },
+  {
+    name: "EMAIL",
+    link: "mailto:seni.tembe@gmail.com",
+  },
 ];
