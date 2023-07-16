@@ -12,16 +12,24 @@ export const Links = () => {
         return (
           <Box
             as={motion.div}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
             key={`${project.name}`}
             display={"flex"}
             gap={"1em"}
+            whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             fontWeight={"bold"}
             cursor="pointer"
             onClick={() => handleOpenNewWindow(`${project.link}`)}
           >
-            <Text>{`${project.name}`}</Text>
+            <Text
+              as={motion.div}
+              whileHover={{
+                color: "linear-gradient(154deg, #21D4FD 0%, #B721FF 100%);",
+              }}
+              whileTap={{
+                color: "linear-gradient(154deg, #21D4FD 0%, #B721FF 100%);",
+              }}
+            >{`${project.name}`}</Text>
           </Box>
         );
       })}

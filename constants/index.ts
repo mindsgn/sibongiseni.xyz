@@ -2,17 +2,17 @@ export const portfolio = [
   {
     name: "ORBYT",
     link: "https://orbyt.org",
-    shortExplainer: "Non-custodial ethereum wallet.",
+    shortExplainer: "📱 Non-custodial ethereum wallet.",
   },
   {
     name: "MIXØ",
     link: "https://xn--mix-2na.xyz",
-    shortExplainer: "Community owned music streaming platform",
+    shortExplainer: "🎵 Community owned music streaming platform",
   },
   {
     name: "SNAPMOVE",
     link: "https://snapmove.co.za",
-    shortExplainer: "On demand furniture delivery",
+    shortExplainer: "🚛 On demand furniture delivery",
   },
 ];
 
