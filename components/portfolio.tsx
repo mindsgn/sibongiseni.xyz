@@ -7,24 +7,34 @@ export const Portfolio = () => {
     window.open(link, "_blank");
   };
   return (
-    <Box padding={"1em"}>
-      <Box cursor="pointer">
-        <Heading>PORTFOLIO</Heading>
-      </Box>
+    <Box
+    borderTop={'2px solid gray'}>
       {portfolioList.map((project: any) => {
         return (
           <Box
+            borderBottom={'2px solid gray'}
+            paddingTop={4}
+            paddingBottom={4}
             as={motion.div}
             key={`${project.name}`}
             display="flex"
+            alignItems={'end'}
             gap=".5em"
             whileHover={{ scale: 1.01 }}
             whileTap={{ scale: 0.99 }}
             cursor="pointer"
             onClick={() => handleOpenNewWindow(`${project.link}`)}
           >
-            <Text fontWeight={"bold"}>{`${project.name}`}</Text>
-            <Text>{`${project.shortExplainer}`}</Text>
+            <Heading
+              size='md'
+              margin={0} 
+              padding={0}>
+                {`${project.name}`}
+            </Heading>
+            <Text 
+              color={'gray.300'}>
+                {`${project.shortExplainer}`}
+            </Text>
           </Box>
         );
       })}

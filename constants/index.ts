@@ -1,18 +1,23 @@
 export const portfolio = [
   {
-    name: "📱 ORBYT",
-    link: "https://orbyt.org",
-    shortExplainer: "Non-custodial ethereum wallet.",
+    name: "ABAKCUS:",
+    link: "https://abakcus.xyz",
+    shortExplainer: "Rewards program for small business",
   },
   {
-    name: "🎵 MIXØ",
-    link: "https://xn--mix-2na.xyz",
-    shortExplainer: "Community owned music streaming platform",
+    name: "AMAFA:",
+    link: "https://amafa.xyz",
+    shortExplainer: "asset management software",
   },
   {
-    name: "🚛 SNAPMOVE",
-    link: "https://snapmove.co.za",
-    shortExplainer: "On demand furniture delivery",
+    name: "CHAZA:",
+    link: "https://chaza.xyz",
+    shortExplainer: "AI Tool for legal documents",
+  },
+  {
+    name: "SNAP PRICE:",
+    link: "https://snapprice.co.za",
+    shortExplainer: "Takealot and amazon price tracker",
   },
 ];
 

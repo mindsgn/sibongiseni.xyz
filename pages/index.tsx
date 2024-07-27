@@ -8,8 +8,6 @@ export default function Home() {
   return (
     <Container padding={"1em"}>
       <Logo />
-      <Links />
-      <Explainer />
       <Portfolio />
     </Container>
   );

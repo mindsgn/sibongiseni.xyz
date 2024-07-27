@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import { theme } from "./../theme";
 import { AnimatePresence } from "framer-motion";
+import { Logo } from "../components/logo";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

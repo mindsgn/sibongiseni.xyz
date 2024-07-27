@@ -4,7 +4,7 @@ export const theme = extendTheme({
   colors: {
     brand: {
       100: "#FFFFFF",
-      200: "000000",
+      200: "#000000", 
     },
   },
   breakpoints: {
@@ -17,5 +17,13 @@ export const theme = extendTheme({
   fonts: {
     heading: "pixel",
     body: "system-ui, sans-serif",
+  },
+  styles: {
+    global: {
+      "html, body": {
+        backgroundColor: "brand.200",
+        color: "brand.100",
+      },
+    },
   },
 });

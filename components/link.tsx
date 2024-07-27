@@ -23,12 +23,6 @@ export const Links = () => {
           >
             <Text
               as={motion.div}
-              whileHover={{
-                color: "linear-gradient(154deg, #21D4FD 0%, #B721FF 100%);",
-              }}
-              whileTap={{
-                color: "linear-gradient(154deg, #21D4FD 0%, #B721FF 100%);",
-              }}
             >{`${project.name}`}</Text>
           </Box>
         );
